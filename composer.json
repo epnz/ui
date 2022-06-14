@@ -1,0 +1,22 @@
+{
+    "name": "block/ui",
+    "description": "Block UI",
+	"license": "Apache-2.0",
+	"keywords": [
+        "Block",
+        "Blockchain",
+        "UI"
+    ],
+    "autoload": {
+        "psr-4": {
+            "Block\\Ui\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "故乡情",
+            "email": "epnz@163.com"
+        }
+    ],
+    "require": {}
+}
