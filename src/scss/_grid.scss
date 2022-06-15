@@ -1,0 +1,18 @@
+// Grid style
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col {
+    flex: 1 0 0%;
+    box-sizing: border-box;
+}
+
+@for $i from 1 through 12 {
+    .col-#{$i} {
+        flex: 0 0 auto;
+        width: ($i / 12) * 100%;
+        box-sizing: border-box;
+    }
+}

@@ -1,0 +1,27 @@
+$black: #000 !default;
+$blue: #4073ff !default;
+
+$default: #7d01f8 !default;
+$green: #04be02 !default;
+$marrs: #008080 !default;
+$orange: #ff6600 !default;
+$pink: #d63384 !default;
+$red: #ff3300 !default;
+$white: #ffffff !default;
+$yellow: #ffcc00 !default;
+
+$dark: darken(desaturate($default, 95%), 30%);
+
+$unit: 5px;
+
+$colors: (
+    "black": $black,
+    "danger": $red,
+    "default": $default,
+    "success": $green,
+    "warning": $yellow,
+    "info": $blue,
+    "dark": $dark,
+    "white": $white,
+) !default;
+
