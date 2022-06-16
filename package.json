@@ -1,0 +1,27 @@
+{
+  "name": "epnz-block-ui",
+  "version": "0.0.1",
+  "description": "Block UI",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/epnz/ui.git"
+  },
+  "keywords": [
+    "Block",
+    "UI",
+    "Blockchain"
+  ],
+  "author": "故乡情 s@epnz.com",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/epnz/ui/issues"
+  },
+  "homepage": "https://github.com/epnz/ui#readme"
+}
