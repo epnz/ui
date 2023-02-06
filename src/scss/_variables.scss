@@ -11,6 +11,8 @@ $white: #ffffff !default;
 $yellow: #ffcc00 !default;
 
 $dark: darken(desaturate($default, 95%), 30%);
+$gray: lighten(desaturate($default, 95%), 20%);
+$bright: lighten(desaturate($default, 95%), 40%);
 
 $unit: 5px;
 
