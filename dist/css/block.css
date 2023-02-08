@@ -1168,4 +1168,8 @@ body {
 
 .tr {
   text-align: right;
+}
+
+:root {
+  --yellow: #ffcc00 ;
 }/*# sourceMappingURL=block.css.map */
