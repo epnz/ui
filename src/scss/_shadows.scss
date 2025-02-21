@@ -1,0 +1,9 @@
+@for $i from 1 through 5 {
+    .ts-#{$i} {
+        text-shadow:0 0 $unit * $i * 0.5 rgba($black, 0.5);
+    }
+
+    .bs-#{$i} {
+        box-shadow:0 0 $unit * $i * 0.5 rgba($black, 0.5);
+    }
+}

@@ -4,6 +4,15 @@ body {
   color: #302e32;
 }
 
+a {
+  color: #7d01f8;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #5701ac;
+}
+
 .row {
   display: flex;
   flex-wrap: wrap;
@@ -12,86 +21,325 @@ body {
 .col {
   flex: 1 0 0%;
   box-sizing: border-box;
+  overflow: hidden;
 }
 
 .col-1 {
   flex: 0 0 auto;
   width: 8.3333333333%;
   box-sizing: border-box;
+  overflow: hidden;
 }
 
 .col-2 {
   flex: 0 0 auto;
   width: 16.6666666667%;
   box-sizing: border-box;
+  overflow: hidden;
 }
 
 .col-3 {
   flex: 0 0 auto;
   width: 25%;
   box-sizing: border-box;
+  overflow: hidden;
 }
 
 .col-4 {
   flex: 0 0 auto;
   width: 33.3333333333%;
   box-sizing: border-box;
+  overflow: hidden;
 }
 
 .col-5 {
   flex: 0 0 auto;
   width: 41.6666666667%;
   box-sizing: border-box;
+  overflow: hidden;
 }
 
 .col-6 {
   flex: 0 0 auto;
   width: 50%;
   box-sizing: border-box;
+  overflow: hidden;
 }
 
 .col-7 {
   flex: 0 0 auto;
   width: 58.3333333333%;
   box-sizing: border-box;
+  overflow: hidden;
 }
 
 .col-8 {
   flex: 0 0 auto;
   width: 66.6666666667%;
   box-sizing: border-box;
+  overflow: hidden;
 }
 
 .col-9 {
   flex: 0 0 auto;
   width: 75%;
   box-sizing: border-box;
+  overflow: hidden;
 }
 
 .col-10 {
   flex: 0 0 auto;
   width: 83.3333333333%;
   box-sizing: border-box;
+  overflow: hidden;
 }
 
 .col-11 {
   flex: 0 0 auto;
   width: 91.6666666667%;
   box-sizing: border-box;
+  overflow: hidden;
 }
 
 .col-12 {
   flex: 0 0 auto;
   width: 100%;
   box-sizing: border-box;
+  overflow: hidden;
 }
 
+@media (max-width: 1199.98px) {
+  .col-t-1 {
+    flex: 0 0 auto;
+    width: 8.3333333333%;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+  .col-t-2 {
+    flex: 0 0 auto;
+    width: 16.6666666667%;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+  .col-t-3 {
+    flex: 0 0 auto;
+    width: 25%;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+  .col-t-4 {
+    flex: 0 0 auto;
+    width: 33.3333333333%;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+  .col-t-5 {
+    flex: 0 0 auto;
+    width: 41.6666666667%;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+  .col-t-6 {
+    flex: 0 0 auto;
+    width: 50%;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+  .col-t-7 {
+    flex: 0 0 auto;
+    width: 58.3333333333%;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+  .col-t-8 {
+    flex: 0 0 auto;
+    width: 66.6666666667%;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+  .col-t-9 {
+    flex: 0 0 auto;
+    width: 75%;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+  .col-t-10 {
+    flex: 0 0 auto;
+    width: 83.3333333333%;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+  .col-t-11 {
+    flex: 0 0 auto;
+    width: 91.6666666667%;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+  .col-t-12 {
+    flex: 0 0 auto;
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+}
+@media (max-width: 991.98px) {
+  .col-p-1 {
+    flex: 0 0 auto;
+    width: 8.3333333333%;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+  .col-p-2 {
+    flex: 0 0 auto;
+    width: 16.6666666667%;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+  .col-p-3 {
+    flex: 0 0 auto;
+    width: 25%;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+  .col-p-4 {
+    flex: 0 0 auto;
+    width: 33.3333333333%;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+  .col-p-5 {
+    flex: 0 0 auto;
+    width: 41.6666666667%;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+  .col-p-6 {
+    flex: 0 0 auto;
+    width: 50%;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+  .col-p-7 {
+    flex: 0 0 auto;
+    width: 58.3333333333%;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+  .col-p-8 {
+    flex: 0 0 auto;
+    width: 66.6666666667%;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+  .col-p-9 {
+    flex: 0 0 auto;
+    width: 75%;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+  .col-p-10 {
+    flex: 0 0 auto;
+    width: 83.3333333333%;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+  .col-p-11 {
+    flex: 0 0 auto;
+    width: 91.6666666667%;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+  .col-p-12 {
+    flex: 0 0 auto;
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+}
+@media (max-width: 575.98px) {
+  .col-m-1 {
+    flex: 0 0 auto;
+    width: 8.3333333333%;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+  .col-m-2 {
+    flex: 0 0 auto;
+    width: 16.6666666667%;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+  .col-m-3 {
+    flex: 0 0 auto;
+    width: 25%;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+  .col-m-4 {
+    flex: 0 0 auto;
+    width: 33.3333333333%;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+  .col-m-5 {
+    flex: 0 0 auto;
+    width: 41.6666666667%;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+  .col-m-6 {
+    flex: 0 0 auto;
+    width: 50%;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+  .col-m-7 {
+    flex: 0 0 auto;
+    width: 58.3333333333%;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+  .col-m-8 {
+    flex: 0 0 auto;
+    width: 66.6666666667%;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+  .col-m-9 {
+    flex: 0 0 auto;
+    width: 75%;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+  .col-m-10 {
+    flex: 0 0 auto;
+    width: 83.3333333333%;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+  .col-m-11 {
+    flex: 0 0 auto;
+    width: 91.6666666667%;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+  .col-m-12 {
+    flex: 0 0 auto;
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+}
 .black {
   color: #000;
 }
 
 .bc-black {
   background-color: #000;
+}
+
+.bc-gradient-black {
+  background: linear-gradient(45deg, black, #1f1f1f);
 }
 
 .danger {
@@ -102,12 +350,20 @@ body {
   background-color: #ff3300;
 }
 
+.bc-gradient-danger {
+  background: linear-gradient(45deg, #e02d00, #ff643d);
+}
+
 .default {
   color: #7d01f8;
 }
 
 .bc-default {
   background-color: #7d01f8;
+}
+
+.bc-gradient-default {
+  background: linear-gradient(45deg, #6e01da, #9c38fe);
 }
 
 .success {
@@ -118,12 +374,20 @@ body {
   background-color: #04be02;
 }
 
+.bc-gradient-success {
+  background: linear-gradient(45deg, #03a002, #05fb03);
+}
+
 .warning {
   color: #ffcc00;
 }
 
 .bc-warning {
   background-color: #ffcc00;
+}
+
+.bc-gradient-warning {
+  background: linear-gradient(45deg, #e0b400, #ffd83d);
 }
 
 .info {
@@ -134,6 +398,10 @@ body {
   background-color: #4073ff;
 }
 
+.bc-gradient-info {
+  background: linear-gradient(45deg, #215dff, #7da0ff);
+}
+
 .dark {
   color: #302e32;
 }
@@ -142,12 +410,20 @@ body {
   background-color: #302e32;
 }
 
+.bc-gradient-dark {
+  background: linear-gradient(45deg, #211f22, #4f4b52);
+}
+
 .white {
   color: #ffffff;
 }
 
 .bc-white {
   background-color: #ffffff;
+}
+
+.bc-gradient-white {
+  background: linear-gradient(45deg, #f0f0f0, white);
 }
 
 .br {
@@ -1158,6 +1434,46 @@ body {
   padding-bottom: 25px;
 }
 
+.ts-1 {
+  text-shadow: 0 0 2.5px rgba(0, 0, 0, 0.5);
+}
+
+.bs-1 {
+  box-shadow: 0 0 2.5px rgba(0, 0, 0, 0.5);
+}
+
+.ts-2 {
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.bs-2 {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.ts-3 {
+  text-shadow: 0 0 7.5px rgba(0, 0, 0, 0.5);
+}
+
+.bs-3 {
+  box-shadow: 0 0 7.5px rgba(0, 0, 0, 0.5);
+}
+
+.ts-4 {
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.bs-4 {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.ts-5 {
+  text-shadow: 0 0 12.5px rgba(0, 0, 0, 0.5);
+}
+
+.bs-5 {
+  box-shadow: 0 0 12.5px rgba(0, 0, 0, 0.5);
+}
+
 .tc {
   text-align: center;
 }
@@ -1168,6 +1484,54 @@ body {
 
 .tr {
   text-align: right;
+}
+
+.fw-b {
+  font-weight: bold;
+}
+
+.fw-n {
+  font-weight: normal;
+}
+
+.fw-l {
+  font-weight: lighter;
+}
+
+.fw-1 {
+  font-weight: 100;
+}
+
+.fw-2 {
+  font-weight: 200;
+}
+
+.fw-3 {
+  font-weight: 300;
+}
+
+.fw-4 {
+  font-weight: 400;
+}
+
+.fw-5 {
+  font-weight: 500;
+}
+
+.fw-6 {
+  font-weight: 600;
+}
+
+.fw-7 {
+  font-weight: 700;
+}
+
+.fw-8 {
+  font-weight: 800;
+}
+
+.fw-9 {
+  font-weight: 900;
 }
 
 :root {

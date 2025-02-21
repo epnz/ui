@@ -7,6 +7,7 @@
 .col {
     flex: 1 0 0%;
     box-sizing: border-box;
+    overflow: hidden;
 }
 
 @for $i from 1 through 12 {
@@ -14,5 +15,42 @@
         flex: 0 0 auto;
         width: calc($i / 12) * 100%;
         box-sizing: border-box;
+        overflow: hidden;
+    }
+}
+
+// 小于此尺寸判断为桌面电脑(t)
+@media (max-width: 1199.98px) {
+    @for $i from 1 through 12 {
+        .col-t-#{$i} {
+            flex: 0 0 auto;
+            width: calc($i / 12) * 100%;
+            box-sizing: border-box;
+            overflow: hidden;
+        }
+    }
+}
+
+// 小于此尺寸判断为平板电脑(p)
+@media (max-width: 991.98px) {
+    @for $i from 1 through 12 {
+        .col-p-#{$i} {
+            flex: 0 0 auto;
+            width: calc($i / 12) * 100%;
+            box-sizing: border-box;
+            overflow: hidden;
+        }
+    }
+}
+
+// 小于此尺寸判断为手机(m)
+@media (max-width: 575.98px) {
+    @for $i from 1 through 12 {
+        .col-m-#{$i} {
+            flex: 0 0 auto;
+            width: calc($i / 12) * 100%;
+            box-sizing: border-box;
+            overflow: hidden;
+        }
     }
 }

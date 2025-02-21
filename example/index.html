@@ -2,7 +2,7 @@
  * @Author: 故乡情 s@epnz.com
  * @Date: 2022-06-14 22:13:36
  * @LastEditors: 故乡情 s@epnz.com
- * @LastEditTime: 2023-02-06 00:04:38
+ * @LastEditTime: 2025-02-22 00:22:35
  * @FilePath: \ui\example\index.html
  * @Description: Block UI
 -->
@@ -14,114 +14,209 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Block UI</title>
+    <style>
+        .grid-container {
+            display: grid;
+            grid-template-columns: 260px auto;
+            grid-gap: 10px;
+        }
+
+        .grid-container>div {
+            overflow-y: auto;
+            height: calc(100vh - 80px);
+        }
+
+        header {
+            position: relative;
+            z-index: 10;
+        }
+
+        .icon-item {
+            color: #FFFFFF;
+            position: relative;
+        }
+
+        .icon-item a {
+            fill: currentColor;
+            color: #FFFFFF;
+            width: 24px;
+            height: 24px;
+            display: block;
+            float: right;
+        }
+
+        .icon-item a:hover {
+            color: #FFFFFF;
+        }
+
+        .icon-item a svg {
+            width: 100%;
+            height: 100%;
+        }
+
+        @media (max-width: 575.98px) {
+            .grid-container {
+                display: block;
+            }
+
+            .grid-container>div {
+                height: auto;
+            }
+        }
+    </style>
     <link href="/dist/css/block.css" rel="stylesheet">
 </head>
 
 <body>
 
-    <div class="block-full">
-        <div style="height: 100px; line-height: 100px;" class="bc-default white tc br-bottom-5 mb-5">
-            <span style="font-size: 2rem; font-weight: bold;">Block UI</span>
-        </div>
-        <div class="tc">这是一些测试文字55</div>
-    </div>
+    <header>
+        <div class="block-full bc-gradient-default bs-5">
+            <div class="row">
+                <div class="col">
+                    <div style="height: 80px; line-height: 80px;" class="white px-2">
+                        <span class="fw-b" style="font-size: 2rem;">Block UI</span>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="tr p-2 mt-4 icon-item">
+                        <a href="https://github.com/epnz/ui" target="_blank">
+                            <svg height="32" aria-hidden="true" viewBox="0 0 16 16" version="1.1" width="32"
+                                data-view-component="true">
+                                <path fill-rule="evenodd"
+                                    d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z">
+                                </path>
+                            </svg>
+                        </a>
+                    </div>
 
-    <div class="block-full mt-5 border">
-        <div class="row tc g-2">
-            <div class="col">
-                <div class="bc-black white py-3">Color Black</div>
-            </div>
-            <div class="col">
-                <div class="bc-danger white py-3">Color Danger</div>
-            </div>
-            <div class="col">
-                <div class="bc-default white py-3">Color Default</div>
-            </div>
-            <div class="col">
-                <div class="bc-success white py-3">Color Success</div>
-            </div>
-            <div class="col">
-                <div class="bc-warning white py-3">Color Warning</div>
-            </div>
-            <div class="col">
-                <div class="bc-info white py-3">Color Info</div>
-            </div>
-            <div class="col">
-                <div class="bc-dark white py-3">Color Dark</div>
-            </div>
-            <div class="col">
-                <div class="bc-white dark py-3">Color White</div>
+                </div>
             </div>
         </div>
-    </div>
+    </header>
 
-    <div class="block mt-5 border">
-        <div class="row tc g-5">
-            <div class="col-4">
-                <div class="bc-black white py-3">Color Black</div>
-            </div>
-            <div class="col-4">
-                <div class="bc-danger white py-3">Color Danger</div>
-            </div>
-            <div class="col-4">
-                <div class="bc-default white py-3">Color Default</div>
-            </div>
-            <div class="col-4">
-                <div class="bc-success white py-3">Color Success</div>
-            </div>
-            <div class="col-4">
-                <div class="bc-warning white py-3">Color Warning</div>
-            </div>
-            <div class="col-4">
-                <div class="bc-info white py-3">Color Info</div>
-            </div>
-            <div class="col-4">
-                <div class="bc-dark white py-3">Color Dark</div>
-            </div>
-            <div class="col-4">
-                <div class="bc-white dark py-3">Color White</div>
+    <main>
+        <div class="block-full">
+            <div class="grid-container">
+                <div class="nav-menu">
+                    <div class="p-2">
+                        <dl>
+                            <dt>文本</dt>
+                            <dt>布局</dt>
+                            <dt>标题</dt>
+                        </dl>
+                    </div>
+                </div>
+                <div>
+                    <div class="p-2">
+                        <div class="block">
+                            <div class="tc">这是一些测试文字</div>
+                        </div>
+
+                        <div class="block p-2">
+                            <a href="#">一个链接测试</a>
+                        </div>
+
+                        <div class="block-full mt-5 border">
+                            <div class="row tc g-2">
+                                <div class="col-4 col-p-6 col-m-12">
+                                    <div class="bc-black white py-3">Color Black</div>
+                                </div>
+                                <div class="col-4 col-p-6 col-m-12">
+                                    <div class="bc-danger white py-3">Color Danger</div>
+                                </div>
+                                <div class="col-4 col-p-6 col-m-12">
+                                    <div class="bc-default white py-3">Color Default</div>
+                                </div>
+                                <div class="col-4 col-p-6 col-m-12">
+                                    <div class="bc-success white py-3">Color Success</div>
+                                </div>
+                                <div class="col-4 col-p-6 col-m-12">
+                                    <div class="bc-warning white py-3">Color Warning</div>
+                                </div>
+                                <div class="col-4 col-p-6 col-m-12">
+                                    <div class="bc-info white py-3">Color Info</div>
+                                </div>
+                                <div class="col-4 col-p-6 col-m-12">
+                                    <div class="bc-dark white py-3">Color Dark</div>
+                                </div>
+                                <div class="col-4 col-p-6 col-m-12">
+                                    <div class="bc-white dark py-3">Color White</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="block mt-5 border">
+                            <div class="row tc g-5">
+                                <div class="col-4 col-p-6 col-m-12">
+                                    <div class="bc-black white py-3">Color Black</div>
+                                </div>
+                                <div class="col-4 col-p-6 col-m-12">
+                                    <div class="bc-danger white py-3">Color Danger</div>
+                                </div>
+                                <div class="col-4 col-p-6 col-m-12">
+                                    <div class="bc-default white py-3">Color Default</div>
+                                </div>
+                                <div class="col-4 col-p-6 col-m-12">
+                                    <div class="bc-success white py-3">Color Success</div>
+                                </div>
+                                <div class="col-4 col-p-6 col-m-12">
+                                    <div class="bc-warning white py-3">Color Warning</div>
+                                </div>
+                                <div class="col-4 col-p-6 col-m-12">
+                                    <div class="bc-info white py-3">Color Info</div>
+                                </div>
+                                <div class="col-4 col-p-6 col-m-12">
+                                    <div class="bc-dark white py-3">Color Dark</div>
+                                </div>
+                                <div class="col-4 col-p-6 col-m-12">
+                                    <div class="bc-white dark py-3">Color White</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="block mt-5">
+                            <div class="row tc g-2 border br">
+                                <div class="col-4 col-p-6 col-m-12">
+                                    <div class="bc-gradient-black white py-3 br">Color Black</div>
+                                </div>
+                                <div class="col-4 col-p-6 col-m-12">
+                                    <div class="bc-gradient-danger white py-3 br">Color Danger</div>
+                                </div>
+                                <div class="col-4 col-p-6 col-m-12">
+                                    <div class="bc-gradient-default white py-3 br">Color Default</div>
+                                </div>
+                                <div class="col-4 col-p-6 col-m-12">
+                                    <div class="bc-gradient-success white py-3 br">Color Success</div>
+                                </div>
+                                <div class="col-4 col-p-6 col-m-12">
+                                    <div class="bc-gradient-warning white py-3 br">Color Warning</div>
+                                </div>
+                                <div class="col-4 col-p-6 col-m-12">
+                                    <div class="bc-gradient-info white py-3 br">Color Info</div>
+                                </div>
+                                <div class="col-4 col-p-6 col-m-12">
+                                    <div class="bc-gradient-dark white py-3 br">Color Dark</div>
+                                </div>
+                                <div class="col-4 col-p-6 col-m-12">
+                                    <div class="bc-gradient-white dark py-3 br">Color White</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="block px-2">
+                            <h1>标题 H1 展示</h1>
+                            <h2>标题 H2 展示</h2>
+                            <h3>标题 H3 展示</h3>
+                            <h4>标题 H4 展示</h4>
+                            <h5>标题 H5 展示</h5>
+                            <h6>标题 H6 展示</h6>
+                        </div>
+
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-
-    <div class="block mt-5 px-2">
-        <div class="row tc g-2 border br">
-            <div class="col-4">
-                <div class="bc-black white py-3 br">Color Black</div>
-            </div>
-            <div class="col-4">
-                <div class="bc-danger white py-3 br">Color Danger</div>
-            </div>
-            <div class="col-4">
-                <div class="bc-default white py-3 br">Color Default</div>
-            </div>
-            <div class="col-4">
-                <div class="bc-success white py-3 br">Color Success</div>
-            </div>
-            <div class="col-4">
-                <div class="bc-warning white py-3 br">Color Warning</div>
-            </div>
-            <div class="col-4">
-                <div class="bc-info white py-3 br">Color Info</div>
-            </div>
-            <div class="col-4">
-                <div class="bc-dark white py-3 br">Color Dark</div>
-            </div>
-            <div class="col-4">
-                <div class="bc-white dark py-3 br">Color White</div>
-            </div>
-        </div>
-    </div>
-
-    <div class="block px-2">
-        <h1>标题 H1 展示</h1>
-        <h2>标题 H2 展示</h2>
-        <h3>标题 H3 展示</h3>
-        <h4>标题 H4 展示</h4>
-        <h5>标题 H5 展示</h5>
-        <h6>标题 H6 展示</h6>
-    </div>
-
+    </main>
 </body>
 
 </html>

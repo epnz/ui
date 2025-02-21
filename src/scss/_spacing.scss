@@ -1,0 +1,100 @@
+@for $i from 1 through 10 {
+    // Margin style $i
+    .m-#{$i} {
+        margin-left: $unit * $i;
+        margin-right: $unit * $i;
+        margin-top: $unit * $i;
+        margin-bottom: $unit * $i;
+    }
+
+    .mx-#{$i} {
+        margin-left: $unit * $i;
+        margin-right: $unit * $i;
+    }
+
+    .my-#{$i} {
+        margin-top: $unit * $i;
+        margin-bottom: $unit * $i;
+    }
+
+    .mt-#{$i} {
+        margin-top: $unit * $i;
+    }
+
+    .mb-#{$i} {
+        margin-bottom: $unit * $i;
+    }
+
+    .ml-#{$i} {
+        margin-left: $unit * $i;
+    }
+
+    .mr-#{$i} {
+        margin-right: $unit * $i;
+    }
+
+    // Padding style $i
+    .p-#{$i} {
+        padding-left: $unit * $i;
+        padding-right: $unit * $i;
+        padding-top: $unit * $i;
+        padding-bottom: $unit * $i;
+    }
+
+    .px-#{$i} {
+        padding-left: $unit * $i;
+        padding-right: $unit * $i;
+    }
+
+    .py-#{$i} {
+        padding-top: $unit * $i;
+        padding-bottom: $unit * $i;
+    }
+
+    .pt-#{$i} {
+        padding-top: $unit * $i;
+    }
+
+    .pb-#{$i} {
+        padding-bottom: $unit * $i;
+    }
+
+    .pl-#{$i} {
+        padding-left: $unit * $i;
+    }
+
+    .pr-#{$i} {
+        padding-right: $unit * $i;
+    }
+
+    .g-#{$i} {
+        padding-top: $unit * $i * 0.5;
+        padding-right: $unit * $i * 0.5;
+        padding-bottom: $unit * $i * 0.5;
+        padding-left: $unit * $i * 0.5;
+        & > * {
+            padding-top: $unit * $i * 0.5;
+            padding-right: $unit * $i * 0.5;
+            padding-bottom: $unit * $i * 0.5;
+            padding-left: $unit * $i * 0.5;
+        }
+    }
+
+    .gx-#{$i} {
+        padding-right: $unit * $i * 0.5;
+        padding-left: $unit * $i * 0.5;
+        & > * {
+            padding-right: $unit * $i * 0.5;
+            padding-left: $unit * $i * 0.5;
+        }
+    }
+
+    .gy-#{$i} {
+        padding-top: $unit * $i * 0.5;
+        padding-bottom: $unit * $i * 0.5;
+        & > * {
+            padding-top: $unit * $i * 0.5;
+            padding-bottom: $unit * $i * 0.5;
+        }
+    }
+}

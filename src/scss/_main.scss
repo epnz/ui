@@ -3,3 +3,12 @@ body {
     font-family: Verdana, 'Microsoft YaHei', Geneva, Tahoma, sans-serif;
     color: $dark;
 }
+
+a {
+    color: $default;
+    text-decoration: none;
+}
+
+a:hover {
+    color: darken($default, 15%);
+}

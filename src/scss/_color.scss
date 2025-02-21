@@ -6,4 +6,8 @@
     .bc-#{$color} {
         background-color: $value;
     }
+
+    .bc-gradient-#{$color} {
+        background: linear-gradient(45deg, darken($value, 6%), lighten($value, 12%));
+    }
 }
