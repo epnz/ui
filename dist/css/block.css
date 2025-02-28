@@ -1535,5 +1535,14 @@ a:hover {
 }
 
 :root {
-  --yellow: #ffcc00 ;
+  --color-black: #000;
+  --color-blue: #4073ff;
+  --color-default: #7d01f8;
+  --color-green: #04be02;
+  --color-marrs: #008080;
+  --color-orange: #ff6600;
+  --color-pink: #d63384;
+  --color-red: #ff3300;
+  --color-white: #ffffff;
+  --color-yellow: #ffcc00;
 }/*# sourceMappingURL=block.css.map */
