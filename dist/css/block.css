@@ -426,6 +426,114 @@ a:hover {
   background: linear-gradient(45deg, #f0f0f0, white);
 }
 
+.blue {
+  color: #4073ff;
+}
+
+.bc-blue {
+  background-color: #4073ff;
+}
+
+.bc-gradient-blue {
+  background: linear-gradient(45deg, #215dff, #7da0ff);
+}
+
+.green {
+  color: #04be02;
+}
+
+.bc-green {
+  background-color: #04be02;
+}
+
+.bc-gradient-green {
+  background: linear-gradient(45deg, #03a002, #05fb03);
+}
+
+.marrs {
+  color: #008080;
+}
+
+.bc-marrs {
+  background-color: #008080;
+}
+
+.bc-gradient-marrs {
+  background: linear-gradient(45deg, #006161, #00bdbd);
+}
+
+.orange {
+  color: #ff6600;
+}
+
+.bc-orange {
+  background-color: #ff6600;
+}
+
+.bc-gradient-orange {
+  background: linear-gradient(45deg, #e05a00, #ff8b3d);
+}
+
+.pink {
+  color: #d63384;
+}
+
+.bc-pink {
+  background-color: #d63384;
+}
+
+.bc-gradient-pink {
+  background: linear-gradient(45deg, #c32775, #e066a3);
+}
+
+.red {
+  color: #ff3300;
+}
+
+.bc-red {
+  background-color: #ff3300;
+}
+
+.bc-gradient-red {
+  background: linear-gradient(45deg, #e02d00, #ff643d);
+}
+
+.yellow {
+  color: #ffcc00;
+}
+
+.bc-yellow {
+  background-color: #ffcc00;
+}
+
+.bc-gradient-yellow {
+  background: linear-gradient(45deg, #e0b400, #ffd83d);
+}
+
+.gray {
+  color: #b0acb3;
+}
+
+.bc-gray {
+  background-color: #b0acb3;
+}
+
+.bc-gradient-gray {
+  background: linear-gradient(45deg, #a09ca4, #ceccd0);
+}
+
+.bright {
+  color: #e3e1e4;
+}
+
+.bc-bright {
+  background-color: #e3e1e4;
+}
+
+.bc-gradient-bright {
+  background: linear-gradient(45deg, #d3d1d5, white);
+}
+
 .br {
   border-radius: 5px;
 }
@@ -1536,6 +1644,10 @@ a:hover {
 
 :root {
   --color-black: #000;
+  --color-success: #04be02;
+  --color-danger: #ff3300;
+  --color-info: #4073ff;
+  --color-warning: #ffcc00;
   --color-blue: #4073ff;
   --color-default: #7d01f8;
   --color-green: #04be02;
@@ -1545,4 +1657,8 @@ a:hover {
   --color-red: #ff3300;
   --color-white: #ffffff;
   --color-yellow: #ffcc00;
+  --color-dark: #302e32;
+  --color-gray: #b0acb3;
+  --color-bright: #e3e1e4;
+  --unit: 5px;
 }/*# sourceMappingURL=block.css.map */

@@ -8,6 +8,10 @@ $pink: #d63384 !default;
 $red: #ff3300 !default;
 $white: #ffffff !default;
 $yellow: #ffcc00 !default;
+$success: $green;
+$danger: $red;
+$info: $blue;
+$warning: $yellow;
 
 $dark: darken(desaturate($default, 95%), 30%);
 $gray: lighten(desaturate($default, 95%), 20%);
@@ -24,5 +28,14 @@ $colors: (
     "info": $blue,
     "dark": $dark,
     "white": $white,
+    "blue": $blue,
+    "green": $green,
+    "marrs": $marrs,
+    "orange": $orange,
+    "pink": $pink,
+    "red": $red,
+    "yellow": $yellow,
+    "gray": $gray,
+    "bright": $bright
 ) !default;
 

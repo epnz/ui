@@ -2,14 +2,23 @@
 @import "develop";
 
 :root {
-    --color-black: #000;
-    --color-blue: #4073ff;
-    --color-default: #7d01f8;
-    --color-green: #04be02;
-    --color-marrs: #008080;
-    --color-orange: #ff6600;
-    --color-pink: #d63384;
-    --color-red: #ff3300;
-    --color-white: #ffffff;
-    --color-yellow: #ffcc00;
+    --color-black: #{$black};
+    --color-success: #{$success};
+    --color-danger: #{$danger};
+    --color-info: #{$info};
+    --color-warning: #{$warning};
+    --color-blue: #{$blue};
+    --color-default: #{$default};
+    --color-green: #{$green};
+    --color-marrs: #{$marrs};
+    --color-orange: #{$orange};
+    --color-pink: #{$pink};
+    --color-red: #{$red};
+    --color-white: #{$white};
+    --color-yellow: #{$yellow};
+    --color-dark: #{$dark};
+    --color-gray: #{$gray};
+    --color-bright: #{$bright};
+
+    --unit: #{$unit};
 }
