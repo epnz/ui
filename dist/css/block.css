@@ -1,3 +1,12 @@
+@charset "UTF-8";
+/*
+ * @Author: 故乡情 s@epnz.com
+ * @Date: 2022-06-14 13:00:08
+ * @LastEditTime: 2025-03-03 22:39:27
+ * @LastEditors: 故乡情 s@epnz.com
+ * @Description: Block UI
+ * @FilePath: \ui\src\scss\block.scss
+ */
 body {
   margin: 0;
   font-family: Verdana, "Microsoft YaHei", Geneva, Tahoma, sans-serif;
@@ -330,6 +339,14 @@ a:hover {
     overflow: hidden;
   }
 }
+/*
+ * @Author: 故乡情 s@epnz.com
+ * @Date: 2022-06-16 00:28:59
+ * @LastEditTime: 2025-03-03 23:43:31
+ * @LastEditors: 故乡情 s@epnz.com
+ * @Description: Block UI
+ * @FilePath: \ui\src\scss\_color.scss
+ */
 .black {
   color: #000;
 }
@@ -1580,6 +1597,178 @@ a:hover {
 
 .bs-5 {
   box-shadow: 0 0 12.5px rgba(0, 0, 0, 0.5);
+}
+
+/*
+ * @Author: 故乡情 s@epnz.com
+ * @Date: 2025-03-03 22:36:05
+ * @LastEditTime: 2025-03-03 23:40:12
+ * @LastEditors: 故乡情 s@epnz.com
+ * @Description: Block UI
+ * @FilePath: \ui\src\scss\_button.scss
+ */
+.btn-default {
+  background-color: #7d01f8;
+  border-radius: 5px;
+  height: 3rem;
+  line-height: 3rem;
+  width: 100%;
+  color: #ffffff;
+  border: 1px solid #6e01da;
+}
+
+.btn-gradient-default {
+  background: linear-gradient(45deg, #6e01da, #9c38fe);
+  border-radius: 5px;
+  height: 3rem;
+  line-height: 3rem;
+  width: 100%;
+  color: #ffffff;
+  border: 1px solid #6e01da;
+}
+
+.btn-success {
+  background-color: #04be02;
+  border-radius: 5px;
+  height: 3rem;
+  line-height: 3rem;
+  width: 100%;
+  color: #ffffff;
+  border: 1px solid #03a002;
+}
+
+.btn-gradient-success {
+  background: linear-gradient(45deg, #03a002, #05fb03);
+  border-radius: 5px;
+  height: 3rem;
+  line-height: 3rem;
+  width: 100%;
+  color: #ffffff;
+  border: 1px solid #03a002;
+}
+
+.btn-warning {
+  background-color: #ffcc00;
+  border-radius: 5px;
+  height: 3rem;
+  line-height: 3rem;
+  width: 100%;
+  color: #ffffff;
+  border: 1px solid #e0b400;
+}
+
+.btn-gradient-warning {
+  background: linear-gradient(45deg, #e0b400, #ffd83d);
+  border-radius: 5px;
+  height: 3rem;
+  line-height: 3rem;
+  width: 100%;
+  color: #ffffff;
+  border: 1px solid #e0b400;
+}
+
+.btn-info {
+  background-color: #4073ff;
+  border-radius: 5px;
+  height: 3rem;
+  line-height: 3rem;
+  width: 100%;
+  color: #ffffff;
+  border: 1px solid #215dff;
+}
+
+.btn-gradient-info {
+  background: linear-gradient(45deg, #215dff, #7da0ff);
+  border-radius: 5px;
+  height: 3rem;
+  line-height: 3rem;
+  width: 100%;
+  color: #ffffff;
+  border: 1px solid #215dff;
+}
+
+.btn-danger {
+  background-color: #ff3300;
+  border-radius: 5px;
+  height: 3rem;
+  line-height: 3rem;
+  width: 100%;
+  color: #ffffff;
+  border: 1px solid #e02d00;
+}
+
+.btn-gradient-danger {
+  background: linear-gradient(45deg, #e02d00, #ff643d);
+  border-radius: 5px;
+  height: 3rem;
+  line-height: 3rem;
+  width: 100%;
+  color: #ffffff;
+  border: 1px solid #e02d00;
+}
+
+.btn-dark {
+  background-color: #302e32;
+  border-radius: 5px;
+  height: 3rem;
+  line-height: 3rem;
+  width: 100%;
+  color: #ffffff;
+  border: 1px solid #211f22;
+}
+
+.btn-gradient-dark {
+  background: linear-gradient(45deg, #211f22, #4f4b52);
+  border-radius: 5px;
+  height: 3rem;
+  line-height: 3rem;
+  width: 100%;
+  color: #ffffff;
+  border: 1px solid #211f22;
+}
+
+.btn-gray {
+  background-color: #b0acb3;
+  border-radius: 5px;
+  height: 3rem;
+  line-height: 3rem;
+  width: 100%;
+  color: #ffffff;
+  border: 1px solid #a09ca4;
+}
+
+.btn-gradient-gray {
+  background: linear-gradient(45deg, #a09ca4, #ceccd0);
+  border-radius: 5px;
+  height: 3rem;
+  line-height: 3rem;
+  width: 100%;
+  color: #ffffff;
+  border: 1px solid #a09ca4;
+}
+
+.btn-bright {
+  background-color: #e3e1e4;
+  border-radius: 5px;
+  height: 3rem;
+  line-height: 3rem;
+  width: 100%;
+  color: #000;
+  border: 1px solid #d3d1d5;
+}
+
+.btn-gradient-bright {
+  background: linear-gradient(45deg, #d3d1d5, white);
+  border-radius: 5px;
+  height: 3rem;
+  line-height: 3rem;
+  width: 100%;
+  color: #000;
+  border: 1px solid #d3d1d5;
+}
+
+button {
+  cursor: pointer;
 }
 
 .tc {

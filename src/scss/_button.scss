@@ -1,0 +1,67 @@
+/*
+ * @Author: 故乡情 s@epnz.com
+ * @Date: 2025-03-03 22:36:05
+ * @LastEditTime: 2025-03-03 23:40:12
+ * @LastEditors: 故乡情 s@epnz.com
+ * @Description: Block UI
+ * @FilePath: \ui\src\scss\_button.scss
+ */
+
+$buttons: (
+    "default": $default,
+    "success": $green,
+    "warning": $yellow,
+    "info": $blue,
+    "danger": $danger,
+    "dark": $dark,
+    "gray": $gray,
+    "bright": $bright,
+    ) !default;
+
+@each $color, $value in $buttons {
+    @if ($color =='bright') {
+        .btn-#{$color} {
+            background-color: $value;
+            border-radius: $unit;
+            height: 3rem;
+            line-height: 3rem;
+            width: 100%;
+            color: $black;
+            border: 1px solid darken($value, 6%);
+        }
+
+        .btn-gradient-#{$color} {
+            background: linear-gradient(45deg, darken($value, 6%), lighten($value, 12%));
+            border-radius: $unit;
+            height: 3rem;
+            line-height: 3rem;
+            width: 100%;
+            color: $black;
+            border: 1px solid darken($value, 6%);
+        }
+    } @else {
+        .btn-#{$color} {
+            background-color: $value;
+            border-radius: $unit;
+            height: 3rem;
+            line-height: 3rem;
+            width: 100%;
+            color: $white;
+            border: 1px solid darken($value, 6%);
+        }
+
+        .btn-gradient-#{$color} {
+            background: linear-gradient(45deg, darken($value, 6%), lighten($value, 12%));
+            border-radius: $unit;
+            height: 3rem;
+            line-height: 3rem;
+            width: 100%;
+            color: $white;
+            border: 1px solid darken($value, 6%);
+        }
+    }
+}
+
+button {
+    cursor: pointer;
+}
