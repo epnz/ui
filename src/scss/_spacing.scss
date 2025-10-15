@@ -1,4 +1,15 @@
+/*
+ * @Author: 故乡情 s@epnz.com
+ * @Date: 2023-02-09 13:27:42
+ * @LastEditTime: 2025-10-16 02:53:28
+ * @LastEditors: 故乡情 s@epnz.com
+ * @Description: Block UI
+ * @FilePath: \ui\src\scss\_spacing.scss
+ */
+
+// 间距
 @for $i from 1 through 10 {
+
     // Margin style $i
     .m-#{$i} {
         margin-left: $unit * $i;
@@ -72,7 +83,8 @@
         padding-right: $unit * $i * 0.5;
         padding-bottom: $unit * $i * 0.5;
         padding-left: $unit * $i * 0.5;
-        & > * {
+
+        &>* {
             padding-top: $unit * $i * 0.5;
             padding-right: $unit * $i * 0.5;
             padding-bottom: $unit * $i * 0.5;
@@ -83,7 +95,8 @@
     .gx-#{$i} {
         padding-right: $unit * $i * 0.5;
         padding-left: $unit * $i * 0.5;
-        & > * {
+
+        &>* {
             padding-right: $unit * $i * 0.5;
             padding-left: $unit * $i * 0.5;
         }
@@ -92,7 +105,8 @@
     .gy-#{$i} {
         padding-top: $unit * $i * 0.5;
         padding-bottom: $unit * $i * 0.5;
-        & > * {
+
+        &>* {
             padding-top: $unit * $i * 0.5;
             padding-bottom: $unit * $i * 0.5;
         }

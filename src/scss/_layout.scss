@@ -1,3 +1,11 @@
+/*
+ * @Author: 故乡情 s@epnz.com
+ * @Date: 2022-06-16 13:09:55
+ * @LastEditTime: 2025-10-16 02:50:39
+ * @LastEditors: 故乡情 s@epnz.com
+ * @Description: Block UI
+ * @FilePath: \ui\src\scss\_layout.scss
+ */
 .block-full {
     width: 100%;
     box-sizing: border-box;
@@ -6,4 +14,24 @@
 .block {
     max-width: 1400px;
     margin: 0 auto;
+}
+
+.black-xl {
+    width: 1140px;
+    box-sizing: border-box;
+}
+
+.black-lg {
+    width: 960px;
+    box-sizing: border-box;
+}
+
+.black-md {
+    width: 720px;
+    box-sizing: border-box;
+}
+
+.black-sm {
+    width: 540px;
+    box-sizing: border-box;
 }
