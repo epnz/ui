@@ -1,11 +1,5 @@
-/*
- * @Author: 故乡情 s@epnz.com
- * @Date: 2022-06-14 13:02:00
- * @LastEditTime: 2025-10-16 02:54:56
- * @LastEditors: 故乡情 s@epnz.com
- * @Description: Block UI
- * @FilePath: \ui\src\scss\_variables.scss
- */
+@use "sass:color";
+
 $black: #000 !default;
 $blue: #4073ff !default;
 $default: #7d01f8 !default;
@@ -21,9 +15,9 @@ $danger: $red;
 $info: $blue;
 $warning: $yellow;
 
-$dark: darken(desaturate($default, 95%), 30%);
-$gray: lighten(desaturate($default, 95%), 20%);
-$bright: lighten(desaturate($default, 95%), 40%);
+$dark: color.adjust(color.adjust($default, $saturation: -95%), $lightness: -30%);
+$gray: color.adjust(color.adjust($default, $saturation: -95%), $lightness: 20%);
+$bright: color.adjust(color.adjust($default, $saturation: -95%), $lightness: 40%);
 
 $unit: 5px;
 
@@ -44,6 +38,4 @@ $colors: (
     "red": $red,
     "yellow": $yellow,
     "gray": $gray,
-    "bright": $bright
-) !default;
-
+    "bright": $bright ) !default;

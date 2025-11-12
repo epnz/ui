@@ -1,28 +1,23 @@
-/*
- * @Author: 故乡情 s@epnz.com
- * @Date: 2022-06-16 00:30:28
- * @LastEditTime: 2025-10-16 02:50:44
- * @LastEditors: 故乡情 s@epnz.com
- * @Description: Block UI
- * @FilePath: \ui\src\scss\_main.scss
- */
+@use "variables";
+@use "sass:color";
+
 body {
     margin: 0;
     font-family: Verdana, 'Microsoft YaHei', Geneva, Tahoma, sans-serif;
-    color: $dark;
+    color: variables.$dark;
 }
 
 a {
-    color: $default;
+    color: variables.$default;
     text-decoration: none;
 }
 
 a:hover {
-    color: darken($default, 15%);
+    color: color.adjust(variables.$default, $lightness: -15%);
 }
 
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }

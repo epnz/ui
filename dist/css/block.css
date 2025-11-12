@@ -2,34 +2,10 @@
 /*
  * @Author: 故乡情 s@epnz.com
  * @Date: 2022-06-14 13:00:08
- * @LastEditTime: 2025-03-03 22:39:27
+ * @LastEditTime: 2025-11-13 00:18:58
  * @LastEditors: 故乡情 s@epnz.com
  * @Description: Block UI
  * @FilePath: \ui\src\scss\block.scss
- */
-/*
- * @Author: 故乡情 s@epnz.com
- * @Date: 2022-06-14 13:02:00
- * @LastEditTime: 2025-10-16 02:54:56
- * @LastEditors: 故乡情 s@epnz.com
- * @Description: Block UI
- * @FilePath: \ui\src\scss\_variables.scss
- */
-/*
- * @Author: 故乡情 s@epnz.com
- * @Date: 2022-06-14 22:54:45
- * @LastEditTime: 2025-10-16 02:47:56
- * @LastEditors: 故乡情 s@epnz.com
- * @Description: Block UI
- * @FilePath: \ui\src\scss\_develop.scss
- */
-/*
- * @Author: 故乡情 s@epnz.com
- * @Date: 2022-06-16 00:30:28
- * @LastEditTime: 2025-10-16 02:50:44
- * @LastEditors: 故乡情 s@epnz.com
- * @Description: Block UI
- * @FilePath: \ui\src\scss\_main.scss
  */
 body {
   margin: 0;
@@ -52,14 +28,6 @@ a:hover {
   box-sizing: border-box;
 }
 
-/*
- * @Author: 故乡情 s@epnz.com
- * @Date: 2022-06-16 00:37:06
- * @LastEditTime: 2025-11-12 03:24:54
- * @LastEditors: 故乡情 s@epnz.com
- * @Description: Block UI
- * @FilePath: \ui\src\scss\_grid.scss
- */
 .row {
   display: flex;
   flex-wrap: wrap;
@@ -394,14 +362,6 @@ a:hover {
     width: 100%;
   }
 }
-/*
- * @Author: 故乡情 s@epnz.com
- * @Date: 2022-06-16 00:28:59
- * @LastEditTime: 2025-10-16 02:47:11
- * @LastEditors: 故乡情 s@epnz.com
- * @Description: Block UI
- * @FilePath: \ui\src\scss\_color.scss
- */
 .black {
   color: #000;
 }
@@ -411,7 +371,7 @@ a:hover {
 }
 
 .bc-gradient-black {
-  background: linear-gradient(45deg, black, rgb(30.6, 30.6, 30.6));
+  background: linear-gradient(45deg, hsl(0, 0%, -6%), rgb(30.6, 30.6, 30.6));
 }
 
 .danger {
@@ -495,7 +455,7 @@ a:hover {
 }
 
 .bc-gradient-white {
-  background: linear-gradient(45deg, rgb(239.7, 239.7, 239.7), white);
+  background: linear-gradient(45deg, rgb(239.7, 239.7, 239.7), hsl(0, 0%, 112%));
 }
 
 .blue {
@@ -603,17 +563,9 @@ a:hover {
 }
 
 .bc-gradient-bright {
-  background: linear-gradient(45deg, rgb(211.207442076, 209.3618072289, 213.0381927711), white);
+  background: linear-gradient(45deg, rgb(211.207442076, 209.3618072289, 213.0381927711), hsl(270.1214574899, 4.1967871486%, 100.8235294118%));
 }
 
-/*
- * @Author: 故乡情 s@epnz.com
- * @Date: 2022-06-16 13:03:36
- * @LastEditTime: 2025-10-25 04:01:32
- * @LastEditors: 故乡情 s@epnz.com
- * @Description: Block UI
- * @FilePath: \ui\src\scss\_borders.scss
- */
 .br {
   border-radius: 5px;
 }
@@ -662,14 +614,6 @@ a:hover {
   border-left: 1px solid rgb(226.5048424467, 225.3039156627, 227.6960843373);
 }
 
-/*
- * @Author: 故乡情 s@epnz.com
- * @Date: 2022-06-16 13:09:55
- * @LastEditTime: 2025-11-12 01:55:31
- * @LastEditors: 故乡情 s@epnz.com
- * @Description: Block UI
- * @FilePath: \ui\src\scss\_layout.scss
- */
 .block,
 .block-fluid,
 .block-xxl,
@@ -722,14 +666,6 @@ a:hover {
     max-width: 1320px;
   }
 }
-/*
- * @Author: 故乡情 s@epnz.com
- * @Date: 2023-02-09 13:27:42
- * @LastEditTime: 2025-10-16 02:53:28
- * @LastEditors: 故乡情 s@epnz.com
- * @Description: Block UI
- * @FilePath: \ui\src\scss\_spacing.scss
- */
 .m-1 {
   margin-left: 5px;
   margin-right: 5px;
@@ -1700,14 +1636,6 @@ a:hover {
   padding-bottom: 25px;
 }
 
-/*
- * @Author: 故乡情 s@epnz.com
- * @Date: 2023-02-09 17:02:35
- * @LastEditTime: 2025-10-16 02:51:09
- * @LastEditors: 故乡情 s@epnz.com
- * @Description: Block UI
- * @FilePath: \ui\src\scss\_shadows.scss
- */
 .ts-1 {
   text-shadow: 0 0 2.5px rgba(0, 0, 0, 0.5);
 }
@@ -1748,14 +1676,6 @@ a:hover {
   box-shadow: 0 0 12.5px rgba(0, 0, 0, 0.5);
 }
 
-/*
- * @Author: 故乡情 s@epnz.com
- * @Date: 2025-03-03 22:36:05
- * @LastEditTime: 2025-10-16 13:15:31
- * @LastEditors: 故乡情 s@epnz.com
- * @Description: Block UI
- * @FilePath: \ui\src\scss\_button.scss
- */
 .btn-default {
   background-color: #7d01f8;
   border-radius: 5px;
@@ -1952,7 +1872,7 @@ a:hover {
 }
 
 .btn-gradient-bright {
-  background: linear-gradient(45deg, rgb(211.207442076, 209.3618072289, 213.0381927711), white);
+  background: linear-gradient(45deg, rgb(211.207442076, 209.3618072289, 213.0381927711), hsl(270.1214574899, 4.1967871486%, 100.8235294118%));
   border-radius: 5px;
   height: 3rem;
   line-height: 3rem;
@@ -1961,7 +1881,7 @@ a:hover {
   border: 1px solid rgb(211.207442076, 209.3618072289, 213.0381927711);
 }
 .btn-gradient-bright:hover {
-  background: linear-gradient(45deg, rgb(195.9100417053, 193.4196987952, 198.3803012048), white);
+  background: linear-gradient(45deg, rgb(195.9100417053, 193.4196987952, 198.3803012048), hsl(270.1214574899, 4.1967871486%, 106.8235294118%));
 }
 
 button {

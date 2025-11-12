@@ -1,33 +1,33 @@
 /*
  * @Author: 故乡情 s@epnz.com
  * @Date: 2022-06-14 13:00:08
- * @LastEditTime: 2025-03-03 22:39:27
+ * @LastEditTime: 2025-11-13 00:18:58
  * @LastEditors: 故乡情 s@epnz.com
  * @Description: Block UI
  * @FilePath: \ui\src\scss\block.scss
  */
  
-@import "variables";
-@import "develop";
+@use "variables";
+@use "develop";
 
 :root {
-    --color-black: #{$black};
-    --color-success: #{$success};
-    --color-danger: #{$danger};
-    --color-info: #{$info};
-    --color-warning: #{$warning};
-    --color-blue: #{$blue};
-    --color-default: #{$default};
-    --color-green: #{$green};
-    --color-marrs: #{$marrs};
-    --color-orange: #{$orange};
-    --color-pink: #{$pink};
-    --color-red: #{$red};
-    --color-white: #{$white};
-    --color-yellow: #{$yellow};
-    --color-dark: #{$dark};
-    --color-gray: #{$gray};
-    --color-bright: #{$bright};
+    --color-black: #{variables.$black};
+    --color-success: #{variables.$success};
+    --color-danger: #{variables.$danger};
+    --color-info: #{variables.$info};
+    --color-warning: #{variables.$warning};
+    --color-blue: #{variables.$blue};
+    --color-default: #{variables.$default};
+    --color-green: #{variables.$green};
+    --color-marrs: #{variables.$marrs};
+    --color-orange: #{variables.$orange};
+    --color-pink: #{variables.$pink};
+    --color-red: #{variables.$red};
+    --color-white: #{variables.$white};
+    --color-yellow: #{variables.$yellow};
+    --color-dark: #{variables.$dark};
+    --color-gray: #{variables.$gray};
+    --color-bright: #{variables.$bright};
 
-    --unit: #{$unit};
+    --unit: #{variables.$unit};
 }

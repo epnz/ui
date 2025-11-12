@@ -1,31 +1,24 @@
-/*
- * @Author: 故乡情 s@epnz.com
- * @Date: 2022-06-16 13:03:36
- * @LastEditTime: 2025-10-25 04:01:32
- * @LastEditors: 故乡情 s@epnz.com
- * @Description: Block UI
- * @FilePath: \ui\src\scss\_borders.scss
- */
+@use "variables";
 
  // 边框圆角
 .br {
-    border-radius: $unit;
+    border-radius: variables.$unit;
 }
 
 .br-top {
-    border-radius: $unit $unit 0 0;
+    border-radius: variables.$unit variables.$unit 0 0;
 }
 
 .br-right {
-    border-radius: 0 $unit $unit 0;
+    border-radius: 0 variables.$unit variables.$unit 0;
 }
 
 .br-bottom {
-    border-radius: 0 0 $unit $unit;
+    border-radius: 0 0 variables.$unit variables.$unit;
 }
 
 .br-left {
-    border-radius: $unit 0 0 $unit;
+    border-radius: variables.$unit 0 0 variables.$unit;
 }
 
 .br-bottom-5 {
@@ -38,20 +31,20 @@
 
 // 边框
 .border {
-    border: 1px solid $bright;
+    border: 1px solid variables.$bright;
 }
 
 .border-top {
-    border-top: 1px solid $bright;
+    border-top: 1px solid variables.$bright;
 }
 
 .border-right {
-    border-right: 1px solid $bright;
+    border-right: 1px solid variables.$bright;
 }
 
 .border-bottom {
-    border-bottom: 1px solid $bright;
+    border-bottom: 1px solid variables.$bright;
 }
 .border-left {
-    border-left: 1px solid $bright;
+    border-left: 1px solid variables.$bright;
 }

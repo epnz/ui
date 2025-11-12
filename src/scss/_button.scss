@@ -1,11 +1,17 @@
-/*
- * @Author: 故乡情 s@epnz.com
- * @Date: 2025-03-03 22:36:05
- * @LastEditTime: 2025-10-16 13:15:31
- * @LastEditors: 故乡情 s@epnz.com
- * @Description: Block UI
- * @FilePath: \ui\src\scss\_button.scss
- */
+@use "variables";
+@use "sass:color";
+
+$unit: variables.$unit;
+$white: variables.$white;
+$black: variables.$black;
+$default: variables.$default;
+$green: variables.$green;
+$yellow: variables.$yellow;
+$blue: variables.$blue;
+$danger: variables.$danger;
+$dark: variables.$dark;
+$gray: variables.$gray;
+$bright: variables.$bright;
 
 // 按钮样式
 $buttons: (
@@ -28,24 +34,24 @@ $buttons: (
             line-height: 3rem;
             width: 100%;
             color: $black;
-            border: 1px solid darken($value, 6%);
+            border: 1px solid color.adjust($value, $lightness: -6%);
 
             &:hover {
-                background-color: lighten($value, 6%);
+                background-color: color.adjust($value, $lightness: 6%);
             }
         }
 
         .btn-gradient-#{$color} {
-            background: linear-gradient(45deg, darken($value, 6%), lighten($value, 12%));
+            background: linear-gradient(45deg, color.adjust($value, $lightness: -6%), color.adjust($value, $lightness: 12%));
             border-radius: $unit;
             height: 3rem;
             line-height: 3rem;
             width: 100%;
             color: $black;
-            border: 1px solid darken($value, 6%);
+            border: 1px solid color.adjust($value,  $lightness: -6%);
 
             &:hover {
-                background: linear-gradient(45deg, darken($value, 12%), lighten($value, 18%));
+                background: linear-gradient(45deg, color.adjust($value,  $lightness: -12%), color.adjust($value, $lightness: 18%));
             }
         }
     }
@@ -58,24 +64,24 @@ $buttons: (
             line-height: 3rem;
             width: 100%;
             color: $white;
-            border: 1px solid darken($value, 6%);
+            border: 1px solid color.adjust($value,  $lightness: -6%);
 
             &:hover {
-                background-color: lighten($value, 6%);
+                background-color: color.adjust($value, $lightness: 6%);
             }
         }
 
         .btn-gradient-#{$color} {
-            background: linear-gradient(45deg, darken($value, 6%), lighten($value, 12%));
+            background: linear-gradient(45deg, color.adjust($value,  $lightness: -6%), color.adjust($value,  $lightness: 12%));
             border-radius: $unit;
             height: 3rem;
             line-height: 3rem;
             width: 100%;
             color: $white;
-            border: 1px solid darken($value, 6%);
+            border: 1px solid color.adjust($value,  $lightness: -6%);
 
             &:hover {
-                background: linear-gradient(45deg, darken($value, 12%), lighten($value, 18%));
+                background: linear-gradient(45deg, color.adjust($value,  $lightness: -12%), color.adjust($value,  $lightness: 18%));
             }
         }
     }

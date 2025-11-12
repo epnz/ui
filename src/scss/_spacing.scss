@@ -1,11 +1,6 @@
-/*
- * @Author: 故乡情 s@epnz.com
- * @Date: 2023-02-09 13:27:42
- * @LastEditTime: 2025-10-16 02:53:28
- * @LastEditors: 故乡情 s@epnz.com
- * @Description: Block UI
- * @FilePath: \ui\src\scss\_spacing.scss
- */
+@use "variables";
+
+$unit: variables.$unit;
 
 // 间距
 @for $i from 1 through 10 {
