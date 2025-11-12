@@ -20,3 +20,9 @@ a {
 a:hover {
     color: darken($default, 15%);
 }
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}

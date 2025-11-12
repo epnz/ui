@@ -1,7 +1,7 @@
 /*
  * @Author: 故乡情 s@epnz.com
  * @Date: 2022-06-16 00:37:06
- * @LastEditTime: 2025-10-16 02:50:08
+ * @LastEditTime: 2025-11-12 03:24:54
  * @LastEditors: 故乡情 s@epnz.com
  * @Description: Block UI
  * @FilePath: \ui\src\scss\_grid.scss
@@ -13,52 +13,71 @@
 }
 
 .col {
-    flex: 1 0 0%;
-    box-sizing: border-box;
-    overflow: hidden;
+    flex: 1 0 0;
 }
 
 @for $i from 1 through 12 {
     .col-#{$i} {
         flex: 0 0 auto;
         width: calc($i / 12) * 100%;
-        box-sizing: border-box;
-        overflow: hidden;
     }
 }
 
-// 小于此尺寸判断为桌面电脑(t)
-@media (max-width: 1199.98px) {
+@media (min-width: 576px) {
+    .col-sm {
+        flex: 1 0 0;
+    }
     @for $i from 1 through 12 {
-        .col-t-#{$i} {
+        .col-sm-#{$i} {
             flex: 0 0 auto;
             width: calc($i / 12) * 100%;
-            box-sizing: border-box;
-            overflow: hidden;
         }
     }
 }
 
-// 小于此尺寸判断为平板电脑(p)
-@media (max-width: 991.98px) {
+@media (min-width: 768px) {
+    .col-md {
+        flex: 1 0 0;
+    }
     @for $i from 1 through 12 {
-        .col-p-#{$i} {
+        .col-md-#{$i} {
             flex: 0 0 auto;
             width: calc($i / 12) * 100%;
-            box-sizing: border-box;
-            overflow: hidden;
         }
     }
 }
 
-// 小于此尺寸判断为手机(m)
-@media (max-width: 575.98px) {
+@media (min-width: 992px) {
+    .col-lg {
+        flex: 1 0 0;
+    }
     @for $i from 1 through 12 {
-        .col-m-#{$i} {
+        .col-lg-#{$i} {
             flex: 0 0 auto;
             width: calc($i / 12) * 100%;
-            box-sizing: border-box;
-            overflow: hidden;
+        }
+    }
+}
+
+@media (min-width: 1200px) {
+    .col-xl {
+        flex: 1 0 0;
+    }
+    @for $i from 1 through 12 {
+        .col-xl-#{$i} {
+            flex: 0 0 auto;
+            width: calc($i / 12) * 100%;
+        }
+    }
+}
+@media (min-width: 1400px) {
+    .col-xxl {
+        flex: 1 0 0;
+    }
+    @for $i from 1 through 12 {
+        .col-xxl-#{$i} {
+            flex: 0 0 auto;
+            width: calc($i / 12) * 100%;
         }
     }
 }

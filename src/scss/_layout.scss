@@ -1,37 +1,70 @@
 /*
  * @Author: 故乡情 s@epnz.com
  * @Date: 2022-06-16 13:09:55
- * @LastEditTime: 2025-10-16 04:33:28
+ * @LastEditTime: 2025-11-12 01:55:31
  * @LastEditors: 故乡情 s@epnz.com
  * @Description: Block UI
  * @FilePath: \ui\src\scss\_layout.scss
  */
-.block-full {
-    width: 100%;
-    box-sizing: border-box;
-}
-
-.block, .block-xxl {
-    max-width: 1320px;
-    margin: 0 auto;
-}
-
-.block-xl {
-    width: 1140px;
-    margin: 0 auto;
-}
-
-.block-lg {
-    width: 960px;
-    margin: 0 auto;
-}
-
-.block-md {
-    width: 720px;
-    margin: 0 auto;
-}
-
+ 
+.block,
+.block-fluid,
+.block-xxl,
+.block-xl,
+.block-lg,
+.block-md,
 .block-sm {
-    width: 540px;
-    margin: 0 auto;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (min-width: 576px) {
+
+    .block-sm,
+    .block {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+
+    .block-md,
+    .block-sm,
+    .block {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 992px) {
+
+    .block-lg,
+    .block-md,
+    .block-sm,
+    .block {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    .block-xl,
+    .block-lg,
+    .block-md,
+    .block-sm,
+    .block {
+        max-width: 1140px;
+    }
+}
+
+@media (min-width: 1400px) {
+
+    .block-xxl,
+    .block-xl,
+    .block-lg,
+    .block-md,
+    .block-sm,
+    .block {
+        max-width: 1320px;
+    }
 }

@@ -1,7 +1,7 @@
 /*
  * @Author: 故乡情 s@epnz.com
  * @Date: 2022-06-16 13:03:36
- * @LastEditTime: 2025-10-16 02:48:19
+ * @LastEditTime: 2025-10-25 04:01:32
  * @LastEditors: 故乡情 s@epnz.com
  * @Description: Block UI
  * @FilePath: \ui\src\scss\_borders.scss
@@ -39,4 +39,19 @@
 // 边框
 .border {
     border: 1px solid $bright;
+}
+
+.border-top {
+    border-top: 1px solid $bright;
+}
+
+.border-right {
+    border-right: 1px solid $bright;
+}
+
+.border-bottom {
+    border-bottom: 1px solid $bright;
+}
+.border-left {
+    border-left: 1px solid $bright;
 }
