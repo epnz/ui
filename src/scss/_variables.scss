@@ -15,9 +15,9 @@ $danger: $red;
 $info: $blue;
 $warning: $yellow;
 
-$dark: color.adjust(color.adjust($default, $saturation: -95%), $lightness: -30%);
-$gray: color.adjust(color.adjust($default, $saturation: -95%), $lightness: 20%);
-$bright: color.adjust(color.adjust($default, $saturation: -95%), $lightness: 40%);
+$dark: #302e32 !default;
+$gray: #b0acb3 !default;
+$bright: #e3e1e4 !default;
 
 $unit: 5px;
 

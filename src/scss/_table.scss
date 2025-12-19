@@ -1,0 +1,57 @@
+@use "variables";
+@use "sass:color";
+
+table {
+    border-collapse: separate;
+    caption-side: bottom;
+    border-spacing: 0;
+}
+
+.table {
+    --table-th-bgcolor: #f4f3f4;
+    width: 100%;
+    background-color: var(--color-white);
+    vertical-align: top;
+    text-align: left;
+
+    tr {
+        border-style: solid;
+        border-width: 0;
+
+        th,
+        td {
+            padding: var(--unit);
+            border-style: solid;
+            border-width: 0;
+            border-bottom: 1px solid var(--color-bright);
+        }
+
+        th {
+            background-color: var(--table-th-bgcolor);
+        }
+    }
+}
+
+.div-table {
+    --table-th-bgcolor: #f4f3f4;
+    width: 100%;
+    background-color: var(--color-white);
+
+    .dt-row {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        border-bottom: 1px solid var(--color-bright);
+
+        .dt-col {
+            flex-wrap: nowrap;
+            flex: 1 0 0;
+            padding: variables.$unit * 1.5;
+        }
+    }
+
+    .dth {
+        font-weight: bold;
+        background-color: var(--table-th-bgcolor);
+    }
+}

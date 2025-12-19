@@ -1,5 +1,6 @@
 @use "variables";
 @use "sass:color";
+
  // 颜色
 @each $color, $value in variables.$colors {
     .#{$color} {

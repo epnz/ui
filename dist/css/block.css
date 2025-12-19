@@ -10,7 +10,7 @@
 body {
   margin: 0;
   font-family: Verdana, "Microsoft YaHei", Geneva, Tahoma, sans-serif;
-  color: rgb(48.0081556997, 45.9855421687, 50.0144578313);
+  color: #302e32;
 }
 
 a {
@@ -435,15 +435,15 @@ a:hover {
 }
 
 .dark {
-  color: rgb(48.0081556997, 45.9855421687, 50.0144578313);
+  color: #302e32;
 }
 
 .bc-dark {
-  background-color: rgb(48.0081556997, 45.9855421687, 50.0144578313);
+  background-color: #302e32;
 }
 
 .bc-gradient-dark {
-  background: linear-gradient(45deg, rgb(32.7055560704, 31.3276506024, 34.0723493976), rgb(78.6133549583, 75.3013253012, 81.8986746988));
+  background: linear-gradient(45deg, rgb(32.7, 31.3375, 34.0625), rgb(78.6, 75.325, 81.875));
 }
 
 .white {
@@ -543,27 +543,27 @@ a:hover {
 }
 
 .gray {
-  color: rgb(175.5135078777, 172.1635542169, 178.8364457831);
+  color: #b0acb3;
 }
 
 .bc-gray {
-  background-color: rgb(175.5135078777, 172.1635542169, 178.8364457831);
+  background-color: #b0acb3;
 }
 
 .bc-gradient-gray {
-  background: linear-gradient(45deg, rgb(160.216107507, 156.2214457831, 164.1785542169), rgb(206.1083086191, 204.0477710843, 208.1522289157));
+  background: linear-gradient(45deg, rgb(160.7962264151, 156.0264150943, 164.3735849057), rgb(206.4075471698, 203.9471698113, 208.2528301887));
 }
 
 .bright {
-  color: rgb(226.5048424467, 225.3039156627, 227.6960843373);
+  color: #e3e1e4;
 }
 
 .bc-bright {
-  background-color: rgb(226.5048424467, 225.3039156627, 227.6960843373);
+  background-color: #e3e1e4;
 }
 
 .bc-gradient-bright {
-  background: linear-gradient(45deg, rgb(211.207442076, 209.3618072289, 213.0381927711), hsl(270.1214574899, 4.1967871486%, 100.8235294118%));
+  background: linear-gradient(45deg, rgb(211.9684210526, 208.8947368421, 213.5052631579), hsl(280, 5.2631578947%, 100.8235294118%));
 }
 
 .br {
@@ -595,23 +595,23 @@ a:hover {
 }
 
 .border {
-  border: 1px solid rgb(226.5048424467, 225.3039156627, 227.6960843373);
+  border: 1px solid #e3e1e4;
 }
 
 .border-top {
-  border-top: 1px solid rgb(226.5048424467, 225.3039156627, 227.6960843373);
+  border-top: 1px solid #e3e1e4;
 }
 
 .border-right {
-  border-right: 1px solid rgb(226.5048424467, 225.3039156627, 227.6960843373);
+  border-right: 1px solid #e3e1e4;
 }
 
 .border-bottom {
-  border-bottom: 1px solid rgb(226.5048424467, 225.3039156627, 227.6960843373);
+  border-bottom: 1px solid #e3e1e4;
 }
 
 .border-left {
-  border-left: 1px solid rgb(226.5048424467, 225.3039156627, 227.6960843373);
+  border-left: 1px solid #e3e1e4;
 }
 
 .block,
@@ -1807,85 +1807,134 @@ a:hover {
 }
 
 .btn-dark {
-  background-color: rgb(48.0081556997, 45.9855421687, 50.0144578313);
+  background-color: #302e32;
   border-radius: 5px;
   height: 3rem;
   line-height: 3rem;
   width: 100%;
   color: #ffffff;
-  border: 1px solid rgb(32.7055560704, 31.3276506024, 34.0723493976);
+  border: 1px solid rgb(32.7, 31.3375, 34.0625);
 }
 .btn-dark:hover {
-  background-color: rgb(63.310755329, 60.6434337349, 65.9565662651);
+  background-color: rgb(63.3, 60.6625, 65.9375);
 }
 
 .btn-gradient-dark {
-  background: linear-gradient(45deg, rgb(32.7055560704, 31.3276506024, 34.0723493976), rgb(78.6133549583, 75.3013253012, 81.8986746988));
+  background: linear-gradient(45deg, rgb(32.7, 31.3375, 34.0625), rgb(78.6, 75.325, 81.875));
   border-radius: 5px;
   height: 3rem;
   line-height: 3rem;
   width: 100%;
   color: #ffffff;
-  border: 1px solid rgb(32.7055560704, 31.3276506024, 34.0723493976);
+  border: 1px solid rgb(32.7, 31.3375, 34.0625);
 }
 .btn-gradient-dark:hover {
-  background: linear-gradient(45deg, rgb(17.4029564411, 16.6697590361, 18.1302409639), rgb(93.9159545876, 89.9592168675, 97.8407831325));
+  background: linear-gradient(45deg, rgb(17.4, 16.675, 18.125), rgb(93.9, 89.9875, 97.8125));
 }
 
 .btn-gray {
-  background-color: rgb(175.5135078777, 172.1635542169, 178.8364457831);
+  background-color: #b0acb3;
   border-radius: 5px;
   height: 3rem;
   line-height: 3rem;
   width: 100%;
   color: #ffffff;
-  border: 1px solid rgb(160.216107507, 156.2214457831, 164.1785542169);
+  border: 1px solid rgb(160.7962264151, 156.0264150943, 164.3735849057);
 }
 .btn-gray:hover {
-  background-color: rgb(190.8109082484, 188.1056626506, 193.4943373494);
+  background-color: rgb(191.2037735849, 187.9735849057, 193.6264150943);
 }
 
 .btn-gradient-gray {
-  background: linear-gradient(45deg, rgb(160.216107507, 156.2214457831, 164.1785542169), rgb(206.1083086191, 204.0477710843, 208.1522289157));
+  background: linear-gradient(45deg, rgb(160.7962264151, 156.0264150943, 164.3735849057), rgb(206.4075471698, 203.9471698113, 208.2528301887));
   border-radius: 5px;
   height: 3rem;
   line-height: 3rem;
   width: 100%;
   color: #ffffff;
-  border: 1px solid rgb(160.216107507, 156.2214457831, 164.1785542169);
+  border: 1px solid rgb(160.7962264151, 156.0264150943, 164.3735849057);
 }
 .btn-gradient-gray:hover {
-  background: linear-gradient(45deg, rgb(144.9187071362, 140.2793373494, 149.5206626506), rgb(221.4057089898, 219.9898795181, 222.8101204819));
+  background: linear-gradient(45deg, rgb(145.5924528302, 140.0528301887, 149.7471698113), rgb(221.6113207547, 219.920754717, 222.879245283));
 }
 
 .btn-bright {
-  background-color: rgb(226.5048424467, 225.3039156627, 227.6960843373);
+  background-color: #e3e1e4;
   border-radius: 5px;
   height: 3rem;
   line-height: 3rem;
   width: 100%;
   color: #000;
-  border: 1px solid rgb(211.207442076, 209.3618072289, 213.0381927711);
+  border: 1px solid rgb(211.9684210526, 208.8947368421, 213.5052631579);
 }
 .btn-bright:hover {
-  background-color: rgb(241.8022428174, 241.2460240964, 242.3539759036);
+  background-color: rgb(242.0315789474, 241.1052631579, 242.4947368421);
 }
 
 .btn-gradient-bright {
-  background: linear-gradient(45deg, rgb(211.207442076, 209.3618072289, 213.0381927711), hsl(270.1214574899, 4.1967871486%, 100.8235294118%));
+  background: linear-gradient(45deg, rgb(211.9684210526, 208.8947368421, 213.5052631579), hsl(280, 5.2631578947%, 100.8235294118%));
   border-radius: 5px;
   height: 3rem;
   line-height: 3rem;
   width: 100%;
   color: #000;
-  border: 1px solid rgb(211.207442076, 209.3618072289, 213.0381927711);
+  border: 1px solid rgb(211.9684210526, 208.8947368421, 213.5052631579);
 }
 .btn-gradient-bright:hover {
-  background: linear-gradient(45deg, rgb(195.9100417053, 193.4196987952, 198.3803012048), hsl(270.1214574899, 4.1967871486%, 106.8235294118%));
+  background: linear-gradient(45deg, rgb(196.9368421053, 192.7894736842, 199.0105263158), hsl(280, 5.2631578947%, 106.8235294118%));
 }
 
 button {
   cursor: pointer;
+}
+
+table {
+  border-collapse: separate;
+  caption-side: bottom;
+  border-spacing: 0;
+}
+
+.table {
+  --table-th-bgcolor: #f4f3f4;
+  width: 100%;
+  background-color: var(--color-white);
+  vertical-align: top;
+  text-align: left;
+}
+.table tr {
+  border-style: solid;
+  border-width: 0;
+}
+.table tr th,
+.table tr td {
+  padding: var(--unit);
+  border-style: solid;
+  border-width: 0;
+  border-bottom: 1px solid var(--color-bright);
+}
+.table tr th {
+  background-color: var(--table-th-bgcolor);
+}
+
+.div-table {
+  --table-th-bgcolor: #f4f3f4;
+  width: 100%;
+  background-color: var(--color-white);
+}
+.div-table .dt-row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  border-bottom: 1px solid var(--color-bright);
+}
+.div-table .dt-row .dt-col {
+  flex-wrap: nowrap;
+  flex: 1 0 0;
+  padding: 7.5px;
+}
+.div-table .dth {
+  font-weight: bold;
+  background-color: var(--table-th-bgcolor);
 }
 
 .tc {
@@ -1963,8 +2012,8 @@ button {
   --color-red: #ff3300;
   --color-white: #ffffff;
   --color-yellow: #ffcc00;
-  --color-dark: rgb(48.0081556997, 45.9855421687, 50.0144578313);
-  --color-gray: rgb(175.5135078777, 172.1635542169, 178.8364457831);
-  --color-bright: rgb(226.5048424467, 225.3039156627, 227.6960843373);
+  --color-dark: #302e32;
+  --color-gray: #b0acb3;
+  --color-bright: #e3e1e4;
   --unit: 5px;
 }/*# sourceMappingURL=block.css.map */
