@@ -41,3 +41,13 @@
         font-weight: $i * 100;
     }
 }
+
+// 鼠标指针
+.cursor-pointer {
+    cursor: pointer;
+}
+
+// 自定义用户选择样式
+.user-select-none {
+    user-select: none;
+}
