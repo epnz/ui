@@ -35,6 +35,8 @@ $buttons: (
             width: 100%;
             color: $black;
             border: 1px solid color.adjust($value, $lightness: -6%);
+            transition: background-color 0.2s;
+            cursor: pointer;
 
             &:hover {
                 background-color: color.adjust($value, $lightness: 6%);
@@ -49,14 +51,13 @@ $buttons: (
             width: 100%;
             color: $black;
             border: 1px solid color.adjust($value,  $lightness: -6%);
+            cursor: pointer;
 
             &:hover {
-                background: linear-gradient(45deg, color.adjust($value,  $lightness: -12%), color.adjust($value, $lightness: 18%));
+                background: linear-gradient(45deg, color.adjust($value,  $lightness: 6%), color.adjust($value, $lightness: 18%));
             }
         }
-    }
-
-    @else {
+    } @else {
         .btn-#{$color} {
             background-color: $value;
             border-radius: $unit;
@@ -65,6 +66,8 @@ $buttons: (
             width: 100%;
             color: $white;
             border: 1px solid color.adjust($value,  $lightness: -6%);
+            transition: background-color 0.2s;
+            cursor: pointer;
 
             &:hover {
                 background-color: color.adjust($value, $lightness: 6%);
@@ -79,14 +82,11 @@ $buttons: (
             width: 100%;
             color: $white;
             border: 1px solid color.adjust($value,  $lightness: -6%);
+            cursor: pointer;
 
             &:hover {
-                background: linear-gradient(45deg, color.adjust($value,  $lightness: -12%), color.adjust($value,  $lightness: 18%));
+                background: linear-gradient(45deg, color.adjust($value,  $lightness: -16%), color.adjust($value,  $lightness: -6%));
             }
         }
     }
-}
-
-button {
-    cursor: pointer;
 }

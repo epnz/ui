@@ -1684,6 +1684,8 @@ a:hover {
   width: 100%;
   color: #ffffff;
   border: 1px solid rgb(109.6385542169, 0.8771084337, 217.5228915663);
+  transition: background-color 0.2s;
+  cursor: pointer;
 }
 .btn-default:hover {
   background-color: rgb(140.2626506024, 25.5253012048, 254.0746987952);
@@ -1697,9 +1699,10 @@ a:hover {
   width: 100%;
   color: #ffffff;
   border: 1px solid rgb(109.6385542169, 0.8771084337, 217.5228915663);
+  cursor: pointer;
 }
 .btn-gradient-default:hover {
-  background: linear-gradient(45deg, rgb(94.2771084337, 0.7542168675, 187.0457831325), rgb(170.7397590361, 86.4795180723, 254.3204819277));
+  background: linear-gradient(45deg, rgb(84.0361445783, 0.6722891566, 166.7277108434), rgb(109.6385542169, 0.8771084337, 217.5228915663));
 }
 
 .btn-success {
@@ -1710,6 +1713,8 @@ a:hover {
   width: 100%;
   color: #ffffff;
   border: 1px solid rgb(3.3625, 159.71875, 1.68125);
+  transition: background-color 0.2s;
+  cursor: pointer;
 }
 .btn-success:hover {
   background-color: rgb(4.6375, 220.28125, 2.31875);
@@ -1723,9 +1728,10 @@ a:hover {
   width: 100%;
   color: #ffffff;
   border: 1px solid rgb(3.3625, 159.71875, 1.68125);
+  cursor: pointer;
 }
 .btn-gradient-success:hover {
-  background: linear-gradient(45deg, rgb(2.725, 129.4375, 1.3625), rgb(33.5125, 252.64375, 31.15625));
+  background: linear-gradient(45deg, rgb(2.3, 109.25, 1.15), rgb(3.3625, 159.71875, 1.68125));
 }
 
 .btn-warning {
@@ -1736,6 +1742,8 @@ a:hover {
   width: 100%;
   color: #ffffff;
   border: 1px solid rgb(224.4, 179.52, 0);
+  transition: background-color 0.2s;
+  cursor: pointer;
 }
 .btn-warning:hover {
   background-color: rgb(255, 210.12, 30.6);
@@ -1749,9 +1757,10 @@ a:hover {
   width: 100%;
   color: #ffffff;
   border: 1px solid rgb(224.4, 179.52, 0);
+  cursor: pointer;
 }
 .btn-gradient-warning:hover {
-  background: linear-gradient(45deg, rgb(193.8, 155.04, 0), rgb(255, 222.36, 91.8));
+  background: linear-gradient(45deg, rgb(173.4, 138.72, 0), rgb(224.4, 179.52, 0));
 }
 
 .btn-info {
@@ -1762,6 +1771,8 @@ a:hover {
   width: 100%;
   color: #ffffff;
   border: 1px solid rgb(33.4, 92.5706806283, 255);
+  transition: background-color 0.2s;
+  cursor: pointer;
 }
 .btn-info:hover {
   background-color: rgb(94.6, 137.4293193717, 255);
@@ -1775,9 +1786,10 @@ a:hover {
   width: 100%;
   color: #ffffff;
   border: 1px solid rgb(33.4, 92.5706806283, 255);
+  cursor: pointer;
 }
 .btn-gradient-info:hover {
-  background: linear-gradient(45deg, rgb(2.8, 70.1413612565, 255), rgb(155.8, 182.2879581152, 255));
+  background: linear-gradient(45deg, rgb(0, 63.3895287958, 237.4), rgb(33.4, 92.5706806283, 255));
 }
 
 .btn-danger {
@@ -1788,6 +1800,8 @@ a:hover {
   width: 100%;
   color: #ffffff;
   border: 1px solid rgb(224.4, 44.88, 0);
+  transition: background-color 0.2s;
+  cursor: pointer;
 }
 .btn-danger:hover {
   background-color: rgb(255, 75.48, 30.6);
@@ -1801,9 +1815,10 @@ a:hover {
   width: 100%;
   color: #ffffff;
   border: 1px solid rgb(224.4, 44.88, 0);
+  cursor: pointer;
 }
 .btn-gradient-danger:hover {
-  background: linear-gradient(45deg, rgb(193.8, 38.76, 0), rgb(255, 124.44, 91.8));
+  background: linear-gradient(45deg, rgb(173.4, 34.68, 0), rgb(224.4, 44.88, 0));
 }
 
 .btn-dark {
@@ -1814,6 +1829,8 @@ a:hover {
   width: 100%;
   color: #ffffff;
   border: 1px solid rgb(32.7, 31.3375, 34.0625);
+  transition: background-color 0.2s;
+  cursor: pointer;
 }
 .btn-dark:hover {
   background-color: rgb(63.3, 60.6625, 65.9375);
@@ -1827,9 +1844,10 @@ a:hover {
   width: 100%;
   color: #ffffff;
   border: 1px solid rgb(32.7, 31.3375, 34.0625);
+  cursor: pointer;
 }
 .btn-gradient-dark:hover {
-  background: linear-gradient(45deg, rgb(17.4, 16.675, 18.125), rgb(93.9, 89.9875, 97.8125));
+  background: linear-gradient(45deg, rgb(7.2, 6.9, 7.5), rgb(32.7, 31.3375, 34.0625));
 }
 
 .btn-gray {
@@ -1840,6 +1858,8 @@ a:hover {
   width: 100%;
   color: #ffffff;
   border: 1px solid rgb(160.7962264151, 156.0264150943, 164.3735849057);
+  transition: background-color 0.2s;
+  cursor: pointer;
 }
 .btn-gray:hover {
   background-color: rgb(191.2037735849, 187.9735849057, 193.6264150943);
@@ -1853,9 +1873,10 @@ a:hover {
   width: 100%;
   color: #ffffff;
   border: 1px solid rgb(160.7962264151, 156.0264150943, 164.3735849057);
+  cursor: pointer;
 }
 .btn-gradient-gray:hover {
-  background: linear-gradient(45deg, rgb(145.5924528302, 140.0528301887, 149.7471698113), rgb(221.6113207547, 219.920754717, 222.879245283));
+  background: linear-gradient(45deg, rgb(135.4566037736, 129.4037735849, 139.9962264151), rgb(160.7962264151, 156.0264150943, 164.3735849057));
 }
 
 .btn-bright {
@@ -1866,6 +1887,8 @@ a:hover {
   width: 100%;
   color: #000;
   border: 1px solid rgb(211.9684210526, 208.8947368421, 213.5052631579);
+  transition: background-color 0.2s;
+  cursor: pointer;
 }
 .btn-bright:hover {
   background-color: rgb(242.0315789474, 241.1052631579, 242.4947368421);
@@ -1879,13 +1902,10 @@ a:hover {
   width: 100%;
   color: #000;
   border: 1px solid rgb(211.9684210526, 208.8947368421, 213.5052631579);
+  cursor: pointer;
 }
 .btn-gradient-bright:hover {
-  background: linear-gradient(45deg, rgb(196.9368421053, 192.7894736842, 199.0105263158), hsl(280, 5.2631578947%, 106.8235294118%));
-}
-
-button {
-  cursor: pointer;
+  background: linear-gradient(45deg, rgb(242.0315789474, 241.1052631579, 242.4947368421), hsl(280, 5.2631578947%, 106.8235294118%));
 }
 
 table {
@@ -1995,6 +2015,14 @@ table {
 
 .fw-9 {
   font-weight: 900;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.user-select-none {
+  user-select: none;
 }
 
 :root {
